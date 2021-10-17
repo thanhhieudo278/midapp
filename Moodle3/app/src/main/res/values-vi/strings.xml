@@ -34,5 +34,24 @@
     <string name="Setting">Cài đặt</string>
     <string name="Notification">Thông báo</string>
     <string name="Refresh">Làm mới</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Tin Nhắn</string>
+    <string name="sync_header">Đồng bộ hóa</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Chữ ký của bạn</string>
+    <string name="reply_title">Hành động trả lời mặc định</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Đồng bộ hóa email định kỳ</string>
+    <string name="attachment_title">Tải xuống tệp đính kèm</string>
+    <string name="attachment_summary_on">Tự động tải xuống tệp đính kèm cho các email đến
+    </string>
+    <string name="attachment_summary_off">Chỉ tải xuống tệp đính kèm khi được yêu cầu thủ công</string>
+    <!-- title_activity -->
+    <string name="title_activity_notification">Thông báo</string>
+    <string name="title_activity_settings">Cài đặt</string>
+
+
 
 </resources>

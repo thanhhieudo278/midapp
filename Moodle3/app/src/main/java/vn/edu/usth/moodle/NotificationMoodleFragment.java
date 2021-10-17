@@ -1,24 +1,19 @@
 package vn.edu.usth.moodle;
 
-
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
-import androidx.viewpager.widget.PagerAdapter;
-import androidx.viewpager.widget.ViewPager;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.google.android.material.tabs.TabLayout;
-
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link OneTwoFragment#newInstance} factory method to
+ * Use the {@link NotificationMoodleFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class OneTwoFragment extends Fragment {
+public class NotificationMoodleFragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -29,7 +24,7 @@ public class OneTwoFragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public OneTwoFragment() {
+    public NotificationMoodleFragment() {
         // Required empty public constructor
     }
 
@@ -39,11 +34,11 @@ public class OneTwoFragment extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment OneTwoFragment.
+     * @return A new instance of fragment NotificationMoodleFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static OneTwoFragment newInstance(String param1, String param2) {
-        OneTwoFragment fragment = new OneTwoFragment();
+    public static NotificationMoodleFragment newInstance(String param1, String param2) {
+        NotificationMoodleFragment fragment = new NotificationMoodleFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -57,16 +52,13 @@ public class OneTwoFragment extends Fragment {
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
-
         }
-
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_one_two, container, false);
+        return inflater.inflate(R.layout.fragment_notification_moodle, container, false);
     }
 }
