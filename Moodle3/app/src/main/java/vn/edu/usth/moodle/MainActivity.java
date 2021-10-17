@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.haha1:
+            case R.id.notification:
                 Toast.makeText(this, "haha 1 selected", Toast.LENGTH_SHORT).show();
 
             case R.id.refresh:

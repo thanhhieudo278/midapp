@@ -32,27 +32,27 @@
         <TextView
             android:layout_width="390dp"
             android:layout_height="wrap_content"
-            android:text="Address: A21 Building, 18 Hoang Quoc Viet, Cau Giay, Ha Noi."
+            android:text="@string/hp_address"
             android:textSize="20dp" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginVertical="20dp"
-            android:text="Telephone: +84-24 37 91 69 60"
+            android:text="@string/hp_telephone"
             android:textSize="20dp" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Email: officeusth@usth.edu.vn"
+            android:text="@string/hp_email"
             android:textSize="20dp" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginVertical="20dp"
-            android:text="Facebook: ĐÉO BIẾT"
+            android:text="@string/hp_facebook"
             android:textSize="20dp" />
 
 

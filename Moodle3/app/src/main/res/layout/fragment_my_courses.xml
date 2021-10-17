@@ -36,7 +36,7 @@
                 <TextView
                     android:layout_width="350dp"
                     android:layout_height="50dp"
-                    android:text="djt me PHUK ngu"
+                    android:text="@string/mc_mad"
                     android:textSize="15dp"
                     android:background="#e7f4f4"
                     />
@@ -57,7 +57,7 @@
                 <TextView
                     android:layout_width="350dp"
                     android:layout_height="50dp"
-                    android:text="djtme qhieu"
+                    android:text="@string/mc_wad"
                     android:textSize="15dp"
                     android:background="#e7f4f4"
                     />
@@ -79,7 +79,7 @@
                     android:layout_width="350dp"
                     android:layout_height="50dp"
                     android:textSize="15dp"
-                    android:text="djtme qhieu"
+                    android:text="@string/mc_mladm"
                     android:background="#e7f4f4"
                     />
 
@@ -101,7 +101,7 @@
                     android:layout_width="350dp"
                     android:layout_height="50dp"
                     android:textSize="15dp"
-                    android:text="djtme qhieu"
+                    android:text="@string/mc_ad"
                     android:background="#e7f4f4"
                     />
 

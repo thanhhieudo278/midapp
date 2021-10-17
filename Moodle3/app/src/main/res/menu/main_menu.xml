@@ -3,21 +3,21 @@
     <item
         android:id="@+id/search"
         android:icon="@drawable/search"
-        android:title="Search"
-        app:showAsAction="ifRoom"/>
+        android:title="@string/Search"
+        app:showAsAction="always"/>
     <item
         android:id="@+id/setting"
-        android:title="Setting"
+        android:title="@string/Setting"
         app:showAsAction="ifRoom"
         />
     <item
-        android:id="@+id/haha1"
-        android:title="haha1"
+        android:id="@+id/notification"
+        android:title="@string/Notification"
         app:showAsAction="ifRoom"
         />
     <item
         android:id="@+id/refresh"
-        android:title="refresh"
+        android:title="@string/Refresh"
         android:icon="@drawable/refresh"
         app:showAsAction="always"
         />
