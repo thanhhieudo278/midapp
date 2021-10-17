@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/GIT/midapp/Moodle3/app/src/main/res/layout/activity_main.xml" value="0.2786458333333333" />
         <entry key="..\:/GIT/midapp/Moodle3/app/src/main/res/layout/activity_notification.xml" value="0.2838541666666667" />
+        <entry key="..\:/GIT/midapp/Moodle3/app/src/main/res/layout/fragment_home_page.xml" value="0.2786458333333333" />
+        <entry key="..\:/GIT/midapp/Moodle3/app/src/main/res/layout/fragment_information_client.xml" value="0.2786458333333333" />
         <entry key="..\:/GIT/midapp/Moodle3/app/src/main/res/layout/fragment_my_courses.xml" value="0.2838541666666667" />
         <entry key="..\:/GIT/midapp/Moodle3/app/src/main/res/layout/fragment_notification_moodle.xml" value="0.2838541666666667" />
         <entry key="..\:/GIT/midapp/Moodle3/app/src/main/res/layout/fragment_notification_school.xml" value="0.2838541666666667" />
@@ -11,6 +14,7 @@
         <entry key="..\:/GIT/midapp/Moodle3/app/src/main/res/layout/settings_activity.xml" value="0.2838541666666667" />
         <entry key="..\:/GIT/midapp/Moodle3/app/src/main/res/menu/bottom_menu.xml" value="0.20416666666666666" />
         <entry key="..\:/GIT/midapp/Moodle3/app/src/main/res/menu/main_menu.xml" value="0.20416666666666666" />
+        <entry key="..\:/GIT/midapp/Moodle3/app/src/main/res/xml/root_preferences.xml" value="0.25" />
         <entry key="..\:/Mobile Development/midapp/Moodle3/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
         <entry key="..\:/Mobile Development/midapp/Moodle3/app/src/main/res/layout/fragment_home_page.xml" value="0.2957427536231884" />
         <entry key="..\:/Mobile Development/midapp/Moodle3/app/src/main/res/layout/fragment_information_client.xml" value="0.2957427536231884" />

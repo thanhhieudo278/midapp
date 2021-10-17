@@ -28,6 +28,7 @@
                 android:layout_margin="15dp">
 
                 <ImageView
+
                     android:layout_width="100dp"
                     android:layout_height="67dp"
                     android:src="@drawable/sunny"
@@ -127,6 +128,14 @@
                     android:layout_margin="15dp"
                     android:textSize="17dp"
                     android:text="@string/if_major"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:textSize="17dp"
+                    android:text="@string/AcademicyearThreeYears"
                     />
 
                 <TextView

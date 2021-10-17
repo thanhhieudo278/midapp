@@ -51,6 +51,24 @@
     <!-- title_activity -->
     <string name="title_activity_notification">Thông báo</string>
     <string name="title_activity_settings">Cài đặt</string>
+    <string name="AcademicyearThreeYears">Năm học: Năm ba</string>
+
+    <!-- frag notification -->
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="notifications_header">USTH thông báo</string>
+    <string name="notifications_date">18/10 - 14:00</string>
+    <string name="notifications_1">Chào các em,<br>
+
+Như các bạn đã biết, chúng tôi nhiệt liệt chào mừng Giáo sư Jean \ -Marc LAVEST đến với gia đình USTH với tư cách là Hiệu trưởng mới của chúng tôi từ ngày 1 tháng 10 năm 2021.
+                    Trong bức thư ngỏ mà anh ấy viết cho bạn, anh ấy bày tỏ niềm tin mạnh mẽ vào cuộc sống chuyên nghiệp của sinh viên hiện tại và mong đợi sự phát triển của các hiệp hội trong trường đại học của chúng ta.<br>
+           Vui lòng tìm Thư ngỏ từ Hiệu trưởng Hiệu trưởng của chúng tôi trong tệp đính kèm.<br>
+
+        Xin chân trọng.</br></br></br></string>
+    <string name="notifications_header2">Moodle thông báo</string>
+    <string name="notifications_date2">17/10 - 20:00</string>
+    <string name="notifications_2">Thông báo: Nâng cấp hệ thống Moodle vào ngày 17/10/2021 và thời gian ngừng hoạt động của dịch vụ <br>
+        Moodle sẽ cập nhật hệ thống từ 20:00 đến 22:00 ngày 17/10/2021 - Chủ nhật, do đó dịch vụ không khả dụng. Hệ thống sẽ hoạt động trở lại sau khoảng thời gian này.
+    </br></string>
 
 
 
