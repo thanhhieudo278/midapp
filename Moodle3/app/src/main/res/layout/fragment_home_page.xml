@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#8bffe1"
     android:orientation="vertical"
+    android:background="@color/white"
     >
 
     <!-- TODO: TRANG NÀY TRANG ĐẦU TIÊN -->
@@ -20,14 +20,13 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_margin="10dp"
-        android:background="#b6ffec"
         android:orientation="vertical">
 
         <ImageView
-            android:background="@drawable/bg"
             android:layout_width="190dp"
             android:layout_height="116dp"
             android:layout_marginHorizontal="100dp"
+            android:background="@drawable/bg"
             android:src="@drawable/logo" />
 
         <TextView

@@ -1,7 +1,5 @@
 package vn.edu.usth.moodle;
 
-import android.annotation.SuppressLint;
-import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
@@ -9,11 +7,10 @@ import android.view.MenuItem;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
+
 import androidx.navigation.NavController;
 import androidx.navigation.Navigation;
 import androidx.navigation.ui.NavigationUI;
-import androidx.viewpager.widget.PagerAdapter;
-import androidx.viewpager.widget.ViewPager;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.tabs.TabLayout;
@@ -29,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
 
 
         // Create a new Fragment to be placed in the activity layout
-
 
 
         BottomNavigationView bottomNavigationView = findViewById(R.id.bottomNavigationView);
@@ -81,26 +77,24 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-
-
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        if (item.getItemId()== R.id.refresh) {
-            Toast.makeText(this, "Refreshing...", Toast.LENGTH_SHORT).show();
-            }else if(item.getItemId()== R.id.search) {
-                Toast.makeText(this, "Searching...", Toast.LENGTH_SHORT).show();
-            }else if(item.getItemId()== R.id.setting) {
-                Intent myIntent = new Intent(MainActivity.this, SettingsActivity.class);
-                MainActivity.this.startActivity(myIntent);
-                Toast.makeText(this, "Setting selected", Toast.LENGTH_SHORT).show();
-            }else if(item.getItemId()== R.id.notification) {
-                Intent myIntent = new Intent(MainActivity.this, NotificationActivity.class);
-                MainActivity.this.startActivity(myIntent);
+        switch (item.getItemId()) {
+            case R.id.notification:
+                Toast.makeText(this, "haha 1 selected", Toast.LENGTH_SHORT).show();
 
-                Toast.makeText(this, " Notification selected", Toast.LENGTH_SHORT).show();
-            }
-        return super.onOptionsItemSelected(item);
+            case R.id.refresh:
+                Toast.makeText(this, "Refresh selected", Toast.LENGTH_SHORT).show();
 
+            case R.id.search:
+                Toast.makeText(this, "Search selected", Toast.LENGTH_SHORT).show();
+
+            case R.id.setting:
+                Toast.makeText(this, "setting selected", Toast.LENGTH_SHORT).show();
+
+            default:
+                return super.onOptionsItemSelected(item);
+        }
     }
 
 }

@@ -20,9 +20,11 @@
         android:name="vn.edu.usth.moodle.MyCoursesFragment"
         android:label="fragment_third"
         tools:layout="@layout/fragment_my_courses" />
+
     <fragment
-        android:id="@+id/fouthFragment"
+        android:id="@+id/fourthFragment"
         android:name="vn.edu.usth.moodle.MenuFragment"
-        android:label="fragment_third"
+        android:label="fragment_fourth"
         tools:layout="@layout/fragment_menu" />
+
 </navigation>
